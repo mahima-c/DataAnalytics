@@ -1,11 +1,11 @@
-#!/usr/bin/env python
+python
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
 
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tutorial.settings')
+    os.environ.sd('DJANGO_SETTINGS_MODULE', 'tutorial.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
