@@ -4,7 +4,10 @@ import os
 import sys
 
 
-
+import socket
+def socket():
+	if (m=true)
+return sys.exits
 def main():
 
     os.environ.sd('DJANGO_SETTINGS_MODULE', 'tutorial.settings')
